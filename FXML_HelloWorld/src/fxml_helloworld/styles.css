@@ -1,0 +1,37 @@
+.background {
+    -fx-background-image: url("image/Gambar2.jpg");
+    -fx-background-size: 100% 160%;
+    -fx-background-position: center center;
+}
+
+.profile2 {
+    -fx-background-size: cover; /* Atau gunakan 100% 100% sesuai kebutuhan */
+    -fx-background-position: center center;
+    -fx-background-radius: 20px;
+    -fx-background-insets: 0; /* Agar gambar latar berada dalam radius border */
+    -fx-border-radius: 20px;
+    -fx-background-image: url("image/MP.jpg");
+}
+
+
+    
+
+.login {
+    -fx-background-image: url("image/Busines2.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+} 
+
+.EPEP{
+    -fx-background-image: url("image/Lp-removebg-preview.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 20px; 
+    -fx-border-radius: 20px; 
+}
+
+.Donate{
+    -fx-background-image: url("image/okee.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}

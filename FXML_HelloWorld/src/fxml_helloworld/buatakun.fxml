@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1730.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.CreateAccountController">
+   <top>
+      <HBox prefHeight="76.0" prefWidth="1440.0" style="-fx-background-color: #64B5F6;" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="1440.0">
+               <children>
+                  <Label text="CreateAccount" textFill="#65d5ab">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="300.0" top="40.0" />
+                     </HBox.margin></Label>
+                  <ImageView fitHeight="77.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@image/interface.png" />
+                     </image></ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="4.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="1440.0">
+               <children>
+                  <Label text="First Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="450.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Last Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="350.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="1440.0">
+               <children>
+                  <TextField fx:id="firstNameField" prefHeight="40.0" prefWidth="357.0">
+                     <HBox.margin>
+                        <Insets left="450.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="lastNameField" prefHeight="40.0" prefWidth="357.0">
+                     <HBox.margin>
+                        <Insets left="75.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <Label text="Register As">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="450.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="registerAsField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="357.0">
+               <VBox.margin>
+                  <Insets left="450.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="620.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="emailField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="489.0">
+               <VBox.margin>
+                  <Insets left="600.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="620.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="passwordField" maxWidth="-Infinity" prefHeight="40.0" prefWidth="489.0">
+               <VBox.margin>
+                  <Insets left="600.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Already have an Account? Login" textFill="#65d5ab">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="600.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="createAccountButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="236.0" style="-fx-background-color: #64B5F6;" text="Create Account" textFill="WHITE" onAction="#handleCreateAccountButtonAction">
+               <VBox.margin>
+                  <Insets left="730.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Label text="Atau Daftar dengan" textFill="#65d5ab">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="783.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="262.0" spacing="20.0">
+               <children>
+                  <ImageView fitHeight="64.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/IG%20(2).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="52.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/iG.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="64.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Fb.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets left="707.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_caribisnis.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="50.0" prefWidth="802.0" style="-fx-background-color: D9D9D9;">
+         <children>
+            <Text layoutX="236.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Businesses &gt; Serch for Business">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="50.0" prefWidth="219.0" style="-fx-background-color: A8E6CF;">
+         <children>
+            <Text layoutX="41.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SustainTrade">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="49.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hi You.....">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="49.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Business are You Looking For?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="18.0" layoutY="132.0" mnemonicParsing="false" style="-fx-background-color: A8E6CF;" text="Home">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="typesearch" layoutX="87.0" layoutY="134.0" prefHeight="26.0" prefWidth="653.0" promptText="Type in the Business" />
+      <AnchorPane layoutX="752.0" layoutY="134.0" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: A8E6CF;">
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="15.0" layoutX="11.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/magnifiying-glass_93642.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="20.0" fitWidth="15.0" layoutX="712.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/magnifiying-glass_93642.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="20.0" layoutY="194.0" prefHeight="146.0" prefWidth="160.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="88.0" fitWidth="130.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/images.jpeg" />
+               </image>
+            </ImageView>
+            <Button layoutX="30.0" layoutY="106.0" mnemonicParsing="false" style="-fx-background-color: A8E6CF;" text="Processed Food" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="219.0" layoutY="194.0" prefHeight="146.0" prefWidth="160.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="165.0" layoutX="16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/fashionjpg-20230624033358.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="52.0" layoutY="106.0" mnemonicParsing="false" style="-fx-background-color: A8E6CF;" text="Fashion" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="401.0" layoutY="194.0" prefHeight="146.0" prefWidth="160.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="115.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/images%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <Button layoutX="26.0" layoutY="106.0" mnemonicParsing="false" style="-fx-background-color: A8E6CF;" text="Waste Processing" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="592.0" layoutY="194.0" prefHeight="146.0" prefWidth="160.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="129.0" layoutX="16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/620b4562ccb18890696843.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="63.0" layoutY="106.0" mnemonicParsing="false" style="-fx-background-color: A8E6CF;" text="DIY" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="21.0" layoutY="360.0" prefHeight="200.0" prefWidth="375.0" style="-fx-background-color: A8E6CF;">
+         <children>
+            <ImageView fitHeight="129.0" fitWidth="136.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/images%20(2).jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="20.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text layoutX="156.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BRANDED">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="156.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puracy Body Wash adalah gel pembersih tubuh berbahan tumbuhan yang sangat cocok bagi mereka yang suka menutrisi kulit sambil menikmati me-time. Sabun mandi ini menghadirkan perpaduan garam laut alami, jeruk, dan aroma pelengkap lainnya,yang memberikan pendekatan yang menyegarkan, mencerahkan, dan percaya diri untuk menjalani hari." wrappingWidth="208.3447265625">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Button fx:id="button1" layoutX="21.0" layoutY="154.0" mnemonicParsing="false" style="-fx-background-color: skyblue;" text="Puracy Body Wash" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="409.0" layoutY="360.0" prefHeight="200.0" prefWidth="375.0" style="-fx-background-color: A8E6CF;">
+         <children>
+            <ImageView fitHeight="132.0" fitWidth="130.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/images%20(3).jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="155.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGGREGATOR">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="155.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Produk tampon dan produk perawatan pribadi lainnya yang ramah lingkungan dari Tsuno menggunakan kapas organik bebas pemutih, dibandingkan dengan alternatif konvensional. Dan setiap kotak yang terjual membantu mendanai pendidikan anak perempuan di Sierra Leone dan Uganda." wrappingWidth="208.3447265625" />
+            <Button layoutX="29.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: skyblue;" text="Tsuno Tampons" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
